@@ -1,0 +1,35 @@
+body {
+    background: url(./portada.webp) no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+    padding: 1%;
+    text-align: center;
+}
+.fondo {
+    background-color: white;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye las imágenes en filas */
+    padding: 20px;
+    max-width: 1000px; /* Ancho máximo para limitar a 4 imágenes por fila */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.galeria img {
+    width: 200px; /* Ancho fijo para cada imagen */
+    height: auto;
+    margin: 1px; /* Margen entre imágenes */
+    object-fit: cover;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
